@@ -1,0 +1,847 @@
+/* @font-face kit by Fonts2u (https://fonts2u.com) */
+@font-face {
+    font-family: "Straczynski";
+    src: url("../fonts/Straczynski_Bold_Italic.eot?") format("eot"), url("../fonts/Straczynski_Bold_Italic.woff") format("woff"),
+        url("../fonts/Straczynski_Bold_Italic.ttf") format("truetype"),
+        url("../fonts/Straczynski_Bold_Italic.svg#Straczynski-BoldItalic") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Edit by :Anjan pradhan */
+.to-top {
+    background: rgb(201, 29, 29);
+    position: fixed;
+    bottom: 16px;
+    right:32px;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:32px;
+    color:#ffffff;
+    text-decoration: none;
+    opacity:0;
+    pointer-events: none;
+    transition: all .4s;
+  }
+  
+  .to-top.active {
+    bottom:32px;
+    pointer-events: auto;
+    opacity:1;
+  }
+  .to-top:hover {
+    color: #0a0804;
+  }
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+   margin-top: 228px;
+}
+.fixed-menu-mini #carouselExampleCaptions {
+    margin-top: -233px !important;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #980000 !important;
+    border-color: #980000 !important;
+}
+.banner_text{
+    font-size: 15px;
+}
+.text-start{
+    margin-left: 500px;
+    margin-bottom: -100px;
+}
+.banner_list{
+    font-size: 20px;
+   margin-left: -10px;
+}
+.fixed-menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    width: 100%;
+    background-color: #fff;
+}
+.fixed-menu-mini .top_menu {display: none;}
+.fixed-menu-mini .main_cc {margin-top: 0;}
+.fixed-menu-mini img.img-d {width: 67px;transition: all .2s linear .2s;}
+.fixed-menu-mini #navbarNavAltMarkup .nav-link {font-size: 14px;transition: all .2s linear .2s;}
+.fixed-menu-mini .navbar-light .navbar-nav .nav-link:focus, .fixed-menu-mini .navbar-light .navbar-nav .nav-link.nav_ii {transition: all .2s linear .2s;font-size: 0.8rem;}
+.fixed-menu-mini #carouselExampleCaptions {
+    margin-top: 144px;
+}
+
+.highlight {
+    color: #ff0026;
+    text-shadow: 0 1px 3px #ffffff;
+    font-size: 1.4rem;
+}
+.emoji {
+    width: 60px;
+    height: 60px;
+}
+
+body{
+
+    margin: 0;
+    padding: 0;
+    font-family: "Straczynski";
+    overflow-x: hidden;
+    font-size: 14px;
+
+}
+/* header */
+a.nav-link.nav-btn.call_sec {
+    position: relative;
+    padding:0 22px;
+    line-height: 40px;
+}
+a.nav-link.nav_ii {
+    color: black;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link.nav_tt:focus {
+    color: #b6b73c;
+}
+#navbarNavAltMarkup .nav-link {
+    font-size: 18px;
+    margin: 0 9px;
+    font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(255 255 255);
+}
+.top_menu {
+    position: relative;
+    width: 100%;
+    padding: 11px;
+
+}
+a.nav-link.nav_ii {
+    color: rgb(0 0 0);
+}
+.hour i , .call i {
+    margin: 0 13px;
+font-size: 17px;
+}
+.right_menu {
+    position: absolute;
+    display: flex;
+}
+.left_menu {
+    position: relative;
+    display: flex !important;
+    top:-4px;
+    float: right;
+
+}
+.main {
+    margin: 0 5px;
+}
+.main_cc {
+    margin-top: 17px;
+}
+.bg-light {
+    background-image: url(../img/g0.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(237 224 224);
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link.nav_ii {
+    color: #2b2929;
+}
+.nav-btn {
+    background: black;
+    border-radius: 13px;
+}
+img.img-d {
+    width: 120px;
+    height: auto;
+}
+#navbarNav li.nav-item {
+    font-size: 15px;
+    font-weight: 700;
+}
+#navbarNav a.nav-link.nav_ii:hover {
+    color: red;
+}
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #fffffffa;
+    border: 1px solid #fffdfd;
+    border-radius: 0.25rem;
+    transition: box-shadow .15s ease-in-out;
+}
+span.hour0 {
+    font-family: "Straczynski";
+    font-weight: normal;
+    font-size: 17px;
+}
+span.number {
+    font-family: "Straczynski";
+    font-weight: normal;
+    font-size: 17px;
+}
+p.f_t {
+    font-size: 19px;
+    margin-bottom: 1px;
+}
+/* end header */
+
+/* banner */
+
+/*
+#owl-carousel09 {
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    width: auto;
+} 
+*/
+.myCarousel {
+    background-image: url(../img/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 634px;
+    width: auto;
+}
+#frame{
+    width: 553px;
+    height: 468px;
+    margin-top: 100px;
+    margin-left: 123px;
+}
+
+#owl-carousel09 .owl-nav {
+    display: none;
+}
+a.banner_link{
+    position: relative;
+    top: 1px;
+    padding: 14px 30px;
+    border-radius: 12px;
+    background: #0e0d0d;
+    color: white;
+    letter-spacing: 0.8px;
+    text-decoration: none;
+    font-size: 17px
+}
+.owl-item {
+    height: 510px;
+}
+h1.banner_heading {
+    margin-top: 2rem;
+    position: relative;
+    font-weight: 700;
+}
+p.banner_cap {
+    font-weight: 600;
+    font-size: 16px;
+}
+.owl-dots {
+    margin-left: 11rem;
+    margin-top: 7rem;
+}
+.caption {
+    margin-top: 18rem;
+    position: relative;
+    float: right;
+}
+.caption {
+    margin-top: 18rem;
+    position: relative;
+    float: right;
+    right: 17rem;
+    color: white;
+}
+.banner_quote{
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+.owl-stage-outer {
+    height: 71%;}
+/* end banner */
+/* sub section */
+.su_txt {
+    position: absolute;
+    padding: 2rem;
+    text-align: center;
+}
+img.img_tt {
+    width: 50px;
+    height: auto;
+}
+.sub_sec {
+    background: #0a0804;
+    padding: 6rem;
+}
+.su_txt {
+    position: absolute;
+    text-align: center;
+    margin-top: -82px;
+    color: white;
+}
+.text {
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.m_contact p {
+    color: #252121;
+    font-size: 17px;
+    margin: 13px 3rem;
+}
+h5#exampleModalLabel {
+    color: black;
+    margin: 0 auto;
+}
+.modal-dialog.main_modal {
+    margin-top: 15rem;
+}
+h5.services_heading {
+    font-weight: 600;
+}
+/* end sub section */
+
+/* membership */
+.team_card {
+    position: relative;
+    width: 86%;
+}
+.team_txt p {
+    margin-top: 16px !important;
+}
+.team_txt h5, .team_txt p {
+    margin: 0px 3rem;
+   font-size: 16px !important;
+}
+.hand_services h4 ,.Detailing_services h4 
+,.vip_services h4 ,.out_services h4 , .Packages_services h4{
+    margin-left: 2rem;
+}
+h4.heading2 {
+    text-align: center;
+    margin-bottom: 46px;
+    font-weight: 700;
+}
+
+.membership_plan {
+    position: relative;
+    margin: 2rem 6px;
+}
+.shape {
+    position: absolute;
+    margin: -17px 5rem;
+}
+.meber_text h4:before {
+    content: "";
+    position: absolute;
+    width: 56px;
+    height: 2px;
+    top: 36px;
+    background: black;
+}
+.meber_text0 h4:before {
+    content: "";
+    position: absolute;
+    width: 93px;
+    height: 2px;
+    top: 36px;
+    background: black;
+}
+    .meber_text h4, .meber_text0 h4  {
+    font-weight: 700;
+    text-align: center;
+    bottom: 6rem;
+    position: relative;
+    }
+    .team_txt {
+    position: absolute;
+    margin-top: -21rem;
+    margin-left: 22px;
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 10px;
+    }
+    .team_txt h6 {
+        font-weight: 600;
+    }
+    .send_team {
+        position: relative;
+        margin-top: -15rem;
+    }
+    .rate {
+    text-align: center;
+    position: relative;
+    top: 135px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    }
+/* carwash_services */
+    .carwash_services {
+        background: #c71313;
+        padding: 40px;
+        margin-top: 39px;
+    }
+    .services {
+        border-right: 1px solid white;
+        height: 253px;
+    }
+    .services_txt {
+        color: white;
+        position: relative;
+        width: 76%;
+        margin-top: 16px;
+    }
+    .services_txt a {
+        color: white;
+    }
+   /*end  carwash_services */
+
+   /* wash_menu */
+   .wash_menu {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+   section.wash_menu {
+    height: 880px;
+}
+
+.wash_menu:before {
+    content: "";
+    position: absolute;
+    background: #151313;
+    height: 880px;
+    width: 100%;
+    opacity: 0.7;
+}
+.out_services,.Detailing_services ,.hand_services,.vip_services {
+    position: absolute;
+    z-index: 2;
+    color: white;
+}
+h4.heading {
+    z-index: 2;
+    color: white;
+    text-align: center;
+    margin-top: 43px;
+}
+.wash_services0{   
+     width: 405px;
+    height: 429px;
+
+    z-index: 3;
+    position: absolute;}
+.wash_services {
+    width: 378px;
+    height: 741px;
+    border-right: 1px solid #908989;
+    z-index: 3;
+    position: absolute;
+}
+    .Packages_services {
+     margin-top: 26rem;
+     z-index: 2;
+     color: white;
+}
+.out_services {
+    margin-top: 10rem;
+}
+.hand_services:after {
+    content: "";
+    position: absolute;
+    width: 378px;
+    height: 1px;
+    z-index: 2;
+    background: #908989;
+    top: 122px;
+}
+
+.Detailing_services:after {
+content: "";
+position: absolute;
+width: 378px;
+height: 1px;
+z-index: 2;
+background: #908989;
+top: 167px;
+right: 0px;
+}
+.Detailing_services:after {
+    margin-top: 235px;
+    width: 441px;
+}
+.wash_services0 , .wash_services li {
+    line-height: 2.4;
+    
+}
+.wash_services0,.wash_services {
+margin-top: 2rem;
+}
+.wash_services:before {
+    content: "";
+    position: absolute;
+    width: 832px;
+    height: 1px;
+    background: #9e939e;
+    top: 741px;
+}
+section.testimonial {
+    height: 510px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+   /*end  wash_menu */
+
+/* gallery */
+
+.gallery-item {
+    width: 200px;
+    padding: 5px;
+  }
+/* end gallery   */
+
+/*  testimonial  */
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 11.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+div#carouselExampleCaptions {
+    margin-top: 54px;
+}
+h5.car_heading {
+    position: relative;
+    top: 11px;
+}
+p.car_dd {
+    width: 50%;
+    margin: auto;
+    font-size: 16px;
+    top: 1rem;
+    position: relative;
+}
+.star {
+    position: relative;
+    color: #ffc107;
+    top: 6px;
+}
+/* end  testimonial  */
+/* footer */
+
+section.footer_sec {
+    padding: 54px;
+}
+ul.ft_menu,.ff_sec {
+    line-height: 40px;
+    color: white;
+    font-weight: 500;
+}
+section.footer_sec {
+    padding: 54px;
+    background: black;
+}
+h4.h4_heading {
+    color: white;
+}
+p.f_p {
+    color: white;
+    margin-top: 19px;
+}
+.phone , .mail ,.location {
+    color: white;
+    margin-top: 15px;
+}
+.phone i, .mail i, .location i {
+    color: red;
+    font-size: 17px;
+}
+.bottom_footer {
+    text-align: center;
+    background: #ec2327;
+    padding-top: 14px;
+    padding-bottom: 1px;
+    color: white;
+    font-weight: 400;
+
+}
+.social_inks {
+    margin-top: 12px;
+}
+img.sc_icon {
+    margin: 0 6px;
+}
+.rate p {
+    font-weight: 700;
+}
+p.number_8 {
+    color: red;
+}
+ul.ff_sec a {
+    color: white; 
+    text-decoration: none;
+}
+.wash_services ul , .wash_services0 ul   {
+    list-style-type: none;
+}
+.small, small {
+    font-size: 80%;
+    font-weight: 400;
+    position: relative;
+    left: 2px;
+    bottom: 2rem;
+}
+
+@media (max-width: 768px){
+.left_menu {
+    display: none !important;
+}   
+
+.owl-stage-outer {
+    height: 95%;
+}
+.col-md-4.mainn {
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+}
+img.img_p {
+    width: 23%;
+}
+.right_menu {
+    position: absolute;
+    display: inline-block;
+    top: 1px;
+    font-size: 1px;
+}
+.top_menu {
+    padding: 18px;
+}
+span.number,span.hour0{font-size: 16px;}
+.carousel-indicators [data-bs-target] {
+    top: 1rem;
+}
+.owl-dots {
+    margin-top: -1rem;
+}
+.img_00 {
+    width: 145% !important;
+    height: auto;
+}
+p.car_dd {
+    width: auto;
+    margin: auto;
+    font-size: 7px
+}
+.d-none {
+    display: block!important;
+}
+.carousel-caption {
+    bottom: 33px;
+}
+
+    #owl-carousel09 {
+    height: 410px;
+    width: auto;
+}
+    .caption {
+        right: 0;
+        bottom: 9rem;
+    }
+    .meber_text h4 {
+    text-align: center;
+    bottom: 6rem;
+    position: relative;
+}
+        .team_card {
+            position: relative;
+            margin-top: 23px;
+        }
+        section.wash_menu {
+            height: 2000px;
+        }
+        .wash_menu:before {
+            content: "";
+            position: absolute;
+            background: #151313;
+            height: 2000px;
+            width: 100%;
+            opacity: 0.7;
+        }
+        .wash_services,.wash_services0 {
+            position: relative;
+        }
+        .wash_services.secs {
+            margin-top: -9rem;
+            position: absolute;
+        }
+        .wash_services0 {
+            margin-top: 38rem;
+        }
+        .wash_services:before {
+            content: "";
+            position: absolute;
+            width: 336px;
+            height: 1px;
+            background: #9e939e;
+            top: 533px;
+        }
+  .wash_services.secs:before {
+            content: "";
+            position: absolute;
+            width: 336px;
+            height: 1px;
+            background: #9e939e;
+            top: 729px;
+        }
+        .hand_services:after {
+            content: "";
+            top: 132px;
+            width: 334px;
+        }
+     
+        .wash_services0, .wash_services {
+            border:none;
+            
+        }
+        .wash_services ,   .wash_services0 {
+            width: auto;
+            height: 690px;
+        }
+        .team_card {
+            width:100%;
+        }
+        .services_txt {
+         width: 95%;
+}
+           .services {
+             border-right: none;
+            height: 256px;
+            margin-bottom: 10px;
+            border-bottom: 1px solid white;
+            }
+            .su_txt {
+                position: relative;
+                text-align: center;
+                margin-top: 0;
+                color: white;
+                padding: 0;
+                }
+                .sub_sec {
+                background: #0a0804;
+                padding: 2rem;}
+}
+    @media (min-width: 758px) and (max-width:1366px) {
+    .meber_text h4 {
+        bottom: 5rem !important;
+    }
+    .carousel-caption {
+    bottom: 7.25rem;}
+    .rate {
+    top: 126px;}
+    .Detailing_services:after {
+    margin-top: 203px;
+    }   
+    .meber_text h4, .meber_text0 h4 {
+    text-align: center;
+    bottom: 5rem;
+    position: relative;
+    }
+    .caption {
+    right: 6rem;
+    }
+    .Detailing_services:after {
+    width: 376px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .col-md-4.mainn {
+        width: 33.33333333%;
+    }
+    .team_txt h5, .team_txt p {
+        margin: 0px 2rem;
+        font-size: 13px !important;
+    }
+    .wash_services0 {
+        position: absolute;
+        bottom: 107rem;
+    }
+    .wash_services, .wash_services0 {
+        width: 400px;
+        height: 690px;
+    }
+    .shape {
+        position: absolute;
+        margin: -17px 2rem;
+    }
+    .send_team {
+        position: relative;
+        margin-top: -9rem;
+    }
+    .team_txt {
+        position: absolute;
+        margin-top: -14rem;
+    }
+    .rate {
+        top: 91px !important;
+        font-size: 20px;
+    }
+    .col-md-3.carwash {
+        width: 50%;
+    }
+  
+    .wash_services0 ,  .wash_services.secs  {
+        margin-top: 30px;
+    }
+    .col-md-4.w_menu {
+        width: 50%;
+    }
+   
+}
+
+
+@media (min-width: 375px) and (max-width: 576px) { 
+    .carousel-caption {
+        bottom: -8px;
+        background-color: hsl(0deg 0% 0% / 44%) !important;
+        }
+    .carousel-caption  .banner_text{
+        font-size: 10px;
+    }
+    .carousel-caption .banner_head{
+        font-size: 10px;
+    }
+    .banner_text{
+        font-size: 18px;
+    }
+    .carousel-caption .btn-lg {
+            padding: 0.5rem 1rem;
+            font-size: .55rem !important;
+            margin-bottom: 10px !important;
+            border-radius: 0.3rem;
+        }
+
+}
